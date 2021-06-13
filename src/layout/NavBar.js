@@ -11,6 +11,7 @@ import {
 import Booking from "../components/Booking";
 import Contact from "../components/Contact";
 import Home from "../components/Home";
+import SignUp from "../components/SignUp";
 
 const Navbar = () => {
   return (
@@ -56,6 +57,7 @@ const Navbar = () => {
         <Route exact path="/" component={Home} />
         <Route exact path="/Booking" component={Booking} />
         <Route exact path="/Contact" component={Contact} />
+        <Route exact path="/SignUp" component={SignUp} />
       </Switch>
     </Router>
   );
